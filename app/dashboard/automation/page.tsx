@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react"
 import DashboardLayout from "@/components/DashboardLayout"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Zap, Play, Pause, Settings, Loader2, CheckCircle, Clock } from "lucide-react"
+import { Zap, Play, Pause, Loader2, CheckCircle, Clock } from "lucide-react"
 
 export default function AutomationPage() {
   const [blogs, setBlogs] = useState<any[]>([])
@@ -178,7 +178,7 @@ export default function AutomationPage() {
           ))}
           {blogs.length === 0 && !loading && (
             <div className="py-20 text-center text-muted-foreground border-2 border-dashed rounded-lg">
-              No blogs connected. Connect a blog in "My Blogs" to set up automation.
+              No blogs connected. Connect a blog in &quot;My Blogs&quot; to set up automation.
             </div>
           )}
           {loading && (

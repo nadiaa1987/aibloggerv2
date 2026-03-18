@@ -1,5 +1,5 @@
 import { db } from "@/lib/db";
-import { blogs, keywords, articles, automationLogs } from "@/lib/db/schema";
+import { keywords, articles, automationLogs } from "@/lib/db/schema";
 import { eq, and } from "drizzle-orm";
 import { generateText, generateImageUrl } from "@/lib/pollinations";
 import { extractJson } from "@/lib/utils";

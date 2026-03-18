@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react"
 import DashboardLayout from "@/components/DashboardLayout"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Search, Plus, Trash2, Tag, Filter, CheckCircle, Clock, Loader2 } from "lucide-react"
+import { Plus, Trash2, Tag, Filter, CheckCircle, Clock, Loader2 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 export default function KeywordsPage() {

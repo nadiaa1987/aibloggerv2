@@ -85,7 +85,7 @@ export default function ThemeGeneratorPage() {
           <Card>
             <CardHeader>
               <CardTitle>Theme Settings</CardTitle>
-              <CardDescription>Customize your blog's appearance and structure.</CardDescription>
+              <CardDescription>Customize your blog&apos;s appearance and structure.</CardDescription>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleGenerateTheme} className="flex flex-col gap-4">

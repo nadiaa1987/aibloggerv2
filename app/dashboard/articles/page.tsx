@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react"
 import DashboardLayout from "@/components/DashboardLayout"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { FileText, Loader2, Send, Wand2, Image as ImageIcon, CheckCircle } from "lucide-react"
+import { FileText, Loader2, Send, Wand2, CheckCircle } from "lucide-react"
 import { generateText, generateImageUrl } from "@/lib/pollinations"
 import { cn, extractJson } from "@/lib/utils"
 

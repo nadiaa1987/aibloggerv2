@@ -175,7 +175,7 @@ export default function BlogsPage() {
           ))}
           {blogs.length === 0 && !loading && !isAdding && (
             <div className="col-span-full py-12 text-center text-muted-foreground border-2 border-dashed rounded-lg">
-              No blogs connected yet. Click "Add Blog" to get started.
+              No blogs connected yet. Click &quot;Add Blog&quot; to get started.
             </div>
           )}
           {loading && (
